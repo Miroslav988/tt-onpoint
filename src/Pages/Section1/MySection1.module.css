@@ -1,0 +1,132 @@
+.parent {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.photos {
+  position: absolute;
+  background-size: cover;
+}
+.leftBakt {
+  background-image: url("../../imgs/leftBakt.png");
+  z-index: 2;
+  right: 1797px;
+  top: 145px;
+  width: 428px;
+  height: 231px;
+}
+.downLeftBakt {
+  background-image: url("../../imgs/bakti_1.png");
+  top: 1007px;
+  left: 45px;
+  width: 146px;
+  height: 142px;
+}
+.downLeftSp {
+  background-image: url("../../imgs/pink_sperm.png");
+  top: 1186px;
+  right: 1489px;
+  width: 827px;
+  height: 356px;
+}
+.downBlur {
+  background-image: url("../../imgs/downBlur.png");
+  top: 1262px;
+  left: 695px;
+  width: 169px;
+  height: 155px;
+}
+.bigBakt {
+  background-image: url("../../imgs/bigBakt.png");
+  top: 1283px;
+  left: 1084px;
+  width: 455px;
+  height: 448px;
+}
+.bigSp {
+  background-image: url("../../imgs/pink_sperm_1.png");
+  top: 310px;
+  left: 865px;
+  width: 1183px;
+  height: 185px;
+  z-index: 5;
+}
+.rightTopBakt {
+  background-image: url("../../imgs/Layer\ 5.png");
+  top: 132px;
+  left: 1572px;
+  width: 125px;
+  height: 114px;
+}
+.topBlur {
+  background-image: url("../../imgs/downBlur.png");
+  opacity: 0.6;
+  top: 60px;
+  left: 1817px;
+  width: 142px;
+  height: 137px;
+}
+.rightMidBakt {
+  background-image: url("../../imgs/rightTopBakt.png");
+  top: 401px;
+  left: 1723px;
+  width: 221px;
+  height: 227px;
+}
+.textCont {
+  position: absolute;
+  width: 1825px;
+  height: 653px;
+  top: 458px;
+  left: 137px;
+}
+.bigText {
+  font-size: 219px;
+  margin: 0;
+  text-transform: uppercase;
+  line-height: 0.9em;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  width: 577px;
+  height: 161px;
+  position: relative;
+  top: -172px;
+  left: 1117px;
+  border: none;
+  background-color: rgba(236, 70, 153, 0.85);
+  border-radius: 9999px;
+  padding: 32px 40px;
+}
+.greet {
+  position: absolute;
+  font-size: 54px;
+  top: 337px;
+  left: 138px;
+  text-transform: uppercase;
+}
+.arrowCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: #000000;
+  border-radius: 9999px;
+  box-shadow: -3px -3px 15px -3px #000, 3px 3px 15px -3px #fff;
+}
+.arrow {
+  position: absolute;
+  background-image: url("../../imgs/Layer 15.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 159px;
+  height: 138px;
+}
+.text {
+  font-weight: 300;
+  font-size: 44px;
+  min-width: 327px;
+  margin-left: 479px;
+}

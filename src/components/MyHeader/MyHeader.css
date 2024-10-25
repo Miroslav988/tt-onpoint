@@ -1,0 +1,17 @@
+.header {
+  left: 66px;
+  top: 25px;
+  display: flex;
+  position: fixed;
+  z-index: 1000;
+}
+.homeBtn {
+  background-color: transparent;
+  background-image: url("../../imgs/global.png");
+  width: 153px;
+  height: 25px;
+  border: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
