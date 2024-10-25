@@ -1,9 +1,11 @@
 .textMessage {
   position: absolute;
   font-size: 54px;
-  top: 337px;
-  left: 138px;
+  top: 273px;
+  left: 134px;
+  width: 362px;
   text-transform: uppercase;
+  margin: 0;
 }
 .textCont {
   position: absolute;
@@ -38,7 +40,7 @@
     rgba(255, 255, 255, 1) 30%,
     rgba(255, 255, 255, 1) 100%
   );
-  width: 1512px;
+  width: 1511px;
   height: 70px;
   border-radius: 55px 55px 0 0;
 }
@@ -53,7 +55,7 @@
     rgba(255, 255, 255, 1) 50%,
     rgba(255, 255, 255, 1) 100%
   );
-  width: 1512px;
+  width: 1511px;
   height: 100px;
   border-radius: 0 0 55px 55px;
 }
@@ -68,12 +70,65 @@
 }
 
 .textCont::-webkit-scrollbar-thumb {
-  /* box-shadow: inset -5px 0 10px rgba(255, 255, 255, 0.5),
-    inset 5px 0 10px rgba(0, 0, 0, 0.5); */
   background: url("../../imgs/btn.png") no-repeat center;
   height: 208px;
 }
 .textCont::-webkit-scrollbar-track {
   margin-top: -350px;
   margin-bottom: -350px;
+}
+.scrollBar {
+  position: absolute;
+  width: 11px;
+  background-color: black;
+  border-radius: 15px;
+  height: 863px;
+  left: 157px;
+  bottom: -615px;
+}
+.absolute {
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+  background-image: url("../../imgs/bigSp.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bigSp {
+  left: 733px;
+  top: 197px;
+  width: 2282px;
+  height: 1063px;
+}
+.midSp {
+  opacity: 0.8;
+  filter: blur(3px) brightness(80%) contrast(130%);
+  left: 1169px;
+  top: 194px;
+  width: 1566px;
+  height: 960px;
+}
+.smallSp {
+  opacity: 0.6;
+  filter: blur(5px) brightness(80%) contrast(130%);
+  left: 1420px;
+  top: 148px;
+  width: 879px;
+  height: 539px;
+}
+.bigBotSp {
+  opacity: 0.6;
+  filter: blur(3px) brightness(80%) contrast(130%);
+  left: 1779px;
+  top: 822px;
+  width: 1567px;
+  height: 776px;
+}
+.smallBotSp {
+  opacity: 0.4;
+  filter: blur(5px) brightness(80%) contrast(130%);
+  left: 1771px;
+  top: 1028px;
+  width: 687px;
+  height: 427px;
 }

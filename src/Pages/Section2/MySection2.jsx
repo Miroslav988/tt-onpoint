@@ -5,6 +5,7 @@ const MySection2 = () => {
     <section>
       <p className={cl.textMessage}>текст сообщения</p>
       <div className={cl.blurTop}></div>
+      <div className={cl.scrollBar}></div>
       <div className={cl.textCont}>
         <p className={cl.text}>
           <strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing
@@ -29,6 +30,11 @@ const MySection2 = () => {
         </p>
       </div>
       <div className={cl.blur}></div>
+      <div className={cl.bigSp + " " + cl.absolute}></div>
+      <div className={cl.midSp + " " + cl.absolute}></div>
+      <div className={cl.smallSp + " " + cl.absolute}></div>
+      <div className={cl.bigBotSp + " " + cl.absolute}></div>
+      <div className={cl.smallBotSp + " " + cl.absolute}></div>
     </section>
   );
 };

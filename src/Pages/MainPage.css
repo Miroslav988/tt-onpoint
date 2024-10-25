@@ -1,23 +1,23 @@
-/* HorizontalPage.css */
 html,
 body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* Скрыть горизонтальную прокрутку */
+  overflow-x: hidden;
   overflow-y: hidden;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .horizontal-container {
-  display: flex; /* Используем flexbox для горизонтального размещения */
-  height: 100vh; /* Высота на весь экран */
-  width: 300vw; /* Ширина на 500% для 5 секций */
-  background-image: url("../imgs/Ellipse\ 1\ copy.jpg");
+  display: flex;
+  height: 100vh;
+  width: 300vw;
+  background-image: url("../imgs/Ellipse 1 copy.jpg");
+  background-position: -70px;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .section {
-  min-width: 100vw; /* Каждая секция занимает 100% ширины окна */
+  width: 100dvw; /* Каждая секция занимает 100% ширины окна */
   height: 100dvh; /* Высота секции на весь экран */
   display: flex;
   position: relative;
