@@ -22,11 +22,14 @@ const MySection3 = () => {
       </div>
       <div className={cl.leftSec}>
         <div className={cl.leftIcon}></div>
-        <p className={cl.leftText}></p>
+        <p className={cl.leftText}>
+          Ehicula ipsum a arcu cursus vitae. Eu non diam phasellus vestibulum
+          lorem sed risus ultricies
+        </p>
       </div>
       <div className={cl.rightSec}>
         <div className={cl.rightIcon}></div>
-        <p className={cl.rightText}></p>
+        <p className={cl.rightText}>A arcu cursus vit</p>
       </div>
       <MyBtn topPx={"1129"} leftPx={"1361"} text={"Подробнее"}>
         +

@@ -99,15 +99,16 @@ strong {
   position: absolute;
   top: 757px;
   left: 454px;
-  z-index: -1;
+  z-index: -3;
 }
 .leftText {
+  margin: 0;
   box-sizing: border-box;
   width: 827px;
   height: 531px;
-  border-radius: 45px;
+  border-radius: 65px;
   background-color: #fff;
-  padding: 108px 103px 146px 250px;
+  padding: 108px 40px 146px 250px;
   font-size: 50px;
 }
 .rightSec {
@@ -116,13 +117,36 @@ strong {
   left: 1362px;
 }
 .rightText {
+  margin: 0;
   box-sizing: border-box;
   width: 526px;
   height: 301px;
-  padding: 26px 177px 106px 84px;
+  padding: 108px 177px 96px 84px;
   background-color: #fff;
-  border-radius: 45px;
+  border-radius: 65px;
   font-size: 50px;
+}
+.leftIcon {
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 135px;
+  height: 126px;
+  top: -67px;
+  left: 250px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../../imgs/icon2.png");
+}
+.rightIcon {
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 140px;
+  height: 115px;
+  top: -67px;
+  left: 117px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../../imgs/icon1.png");
 }
 .wtfIsWrongWithThisBG {
   position: absolute;
