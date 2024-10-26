@@ -86,47 +86,10 @@
   text-transform: uppercase;
   line-height: 0.9em;
 }
-.btn {
-  display: flex;
-  align-items: center;
-  width: 577px;
-  height: 161px;
-  position: relative;
-  top: -172px;
-  left: 1117px;
-  border: none;
-  background-color: rgba(236, 70, 153, 0.85);
-  border-radius: 9999px;
-  padding: 32px 40px;
-}
 .greet {
   position: absolute;
   font-size: 54px;
   top: 337px;
   left: 138px;
   text-transform: uppercase;
-}
-.arrowCont {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100px;
-  height: 100px;
-  background-color: #000000;
-  border-radius: 9999px;
-  box-shadow: -3px -3px 15px -3px #000, 3px 3px 15px -3px #fff;
-}
-.arrow {
-  position: absolute;
-  background-image: url("../../imgs/Layer 15.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 159px;
-  height: 138px;
-}
-.text {
-  font-weight: 300;
-  font-size: 44px;
-  min-width: 327px;
-  margin-left: 479px;
 }

@@ -13,7 +13,7 @@ body {
   width: 300vw;
   background-image: url("../imgs/Ellipse 1 copy.jpg");
   background-position: -70px;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .section {

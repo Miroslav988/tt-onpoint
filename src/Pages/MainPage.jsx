@@ -2,9 +2,10 @@ import React, { useState, useRef } from "react";
 import "./MainPage.css"; // Импортируем CSS для стилей
 import MySection1 from "./Section1/MySection1";
 import MySection2 from "./Section2/MySection2";
+import MySection3 from "./Section3/MySection3";
 
 const HorizontalPage = () => {
-  const sections = [<MySection1 />, <MySection2 />, "Секция 3"];
+  const sections = [<MySection1 />, <MySection2 />, <MySection3 />];
 
   const [currentSection, setCurrentSection] = useState(0);
   const [startX, setStartX] = useState(0);

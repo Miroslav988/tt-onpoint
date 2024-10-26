@@ -6,6 +6,7 @@
   z-index: 1000;
 }
 .homeBtn {
+  position: absolute;
   background-color: transparent;
   background-image: url("../../imgs/global.png");
   width: 153px;

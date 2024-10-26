@@ -1,0 +1,133 @@
+.absolute {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bottle {
+  width: 479px;
+  height: 1395px;
+  top: 141px;
+  left: 92px;
+  background-image: url("../../imgs/bubbles/bottle.png");
+}
+.text {
+  top: 0;
+}
+.maintext {
+  top: 0;
+}
+
+.topSmBlBub {
+  z-index: -1;
+  width: 74px;
+  height: 76px;
+  top: 131px;
+  left: 395px;
+  background-image: url("../../imgs/bubbles/2.png");
+}
+.topMidBlBub {
+  width: 136px;
+  height: 138px;
+  top: 311px;
+  left: 368px;
+  background-image: url("../../imgs/bubbles/2.png");
+}
+.topLeftRedBub {
+  z-index: -1;
+  width: 68px;
+  height: 68px;
+  top: 425px;
+  left: 154px;
+  background-image: url("../../imgs/bubbles/4.png");
+}
+.topRightRedBub {
+  z-index: -1;
+  width: 225px;
+  height: 224px;
+  left: 373px;
+  top: 634px;
+  background-image: url("../../imgs/bubbles/3.png");
+}
+.leftBlBub {
+  width: 66px;
+  height: 66px;
+  left: 21px;
+  top: 907px;
+  background-image: url("../../imgs/bubbles/2.png");
+}
+.leftRedBub {
+  width: 149px;
+  height: 149px;
+  top: 1107px;
+  left: 50px;
+  background-image: url("../../imgs/bubbles/5.png");
+}
+.rightBlBub {
+  z-index: -1;
+  width: 123px;
+  height: 123px;
+  top: 1182px;
+  left: 484px;
+  background-image: url("../../imgs/bubbles/2.png");
+}
+.botBlBub {
+  width: 285px;
+  height: 285px;
+  top: 1406px;
+  left: 367px;
+  background-image: url("../../imgs/bubbles/2.png");
+}
+.textCont {
+  top: 339px;
+  left: 707px;
+  text-transform: uppercase;
+}
+.text {
+  font-size: 54px;
+  margin: 0;
+}
+.maintext {
+  font-weight: 100;
+  margin: 0;
+  letter-spacing: 20px;
+  font-size: 190px;
+}
+strong {
+  font-weight: 900;
+}
+.leftSec {
+  position: absolute;
+  top: 757px;
+  left: 454px;
+  z-index: -1;
+}
+.leftText {
+  box-sizing: border-box;
+  width: 827px;
+  height: 531px;
+  border-radius: 45px;
+  background-color: #fff;
+  padding: 108px 103px 146px 250px;
+  font-size: 50px;
+}
+.rightSec {
+  position: absolute;
+  top: 757px;
+  left: 1362px;
+}
+.rightText {
+  box-sizing: border-box;
+  width: 526px;
+  height: 301px;
+  padding: 26px 177px 106px 84px;
+  background-color: #fff;
+  border-radius: 45px;
+  font-size: 50px;
+}
+.wtfIsWrongWithThisBG {
+  position: absolute;
+  background-color: #f4f4f4;
+  width: 170px;
+  right: -100%;
+  height: 200dvh;
+}

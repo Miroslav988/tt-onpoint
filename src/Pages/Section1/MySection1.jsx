@@ -1,6 +1,7 @@
 import React from "react";
 import cl from "./MySection1.module.css";
-
+import MyBtn from "../../components/UI/MyBtn/MyBtn";
+import arrow from "../../imgs/Layer 15.svg";
 const MySection1 = () => {
   return (
     <div className={cl.parent}>
@@ -20,12 +21,12 @@ const MySection1 = () => {
         </p>
         <p className={cl.bigText}>коммерческое</p>
         <p className={cl.bigText}>задание</p>
-        <button className={cl.btn}>
-          <div className={cl.arrowCont}>
-            <div className={cl.arrow}></div>
-            <span className={cl.text}>Что дальше?</span>
-          </div>
-        </button>
+        <MyBtn
+          topPx={"-172"}
+          leftPx={"1117"}
+          text={"Что дальше?"}
+          icon={arrow}
+        ></MyBtn>
       </div>
     </div>
   );
