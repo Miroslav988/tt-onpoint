@@ -1,6 +1,6 @@
 import React from "react";
 import cl from "./MyBtn.module.css";
-const MyBtn = ({ topPx, leftPx, text, icon, href, children }) => {
+const MyBtn = ({ topPx, leftPx, text, icon, href, children, handelClick }) => {
   return (
     <button
       style={{ top: `${topPx}px`, left: `${leftPx}px` }}
