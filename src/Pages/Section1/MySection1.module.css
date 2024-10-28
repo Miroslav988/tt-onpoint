@@ -74,22 +74,23 @@
   height: 227px;
 }
 .textCont {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
   width: 1825px;
   height: 653px;
-  top: 458px;
-  left: 137px;
+  margin-top: 74px;
+  margin-left: 137px;
 }
 .bigText {
+  display: flex;
   font-size: 219px;
   margin: 0;
   text-transform: uppercase;
   line-height: 0.9em;
 }
 .greet {
-  position: absolute;
   font-size: 54px;
-  top: 337px;
-  left: 138px;
+  margin-top: 337px;
+  margin-left: 138px;
   text-transform: uppercase;
 }

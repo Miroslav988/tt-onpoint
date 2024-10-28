@@ -75,17 +75,17 @@
   height: 208px;
 }
 .textCont::-webkit-scrollbar-track {
-  margin-top: -350px;
-  margin-bottom: -350px;
+  margin-top: -420px;
+  margin-bottom: -410px;
 }
 .scrollBar {
   position: absolute;
   width: 11px;
   background-color: black;
   border-radius: 15px;
-  height: 820px;
+  height: 863px;
   left: 157px;
-  top: 510px;
+  top: 490px;
 }
 .absolute {
   position: absolute;

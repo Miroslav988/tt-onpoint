@@ -3,7 +3,7 @@ import cl from "./MyBtn.module.css";
 const MyBtn = ({ topPx, leftPx, text, icon, href, children, handelClick }) => {
   return (
     <button
-      style={{ top: `${topPx}px`, left: `${leftPx}px` }}
+      style={{ marginTop: `${topPx}px`, marginLeft: `${leftPx}px` }}
       className={cl.btn}
     >
       <div className={cl.arrowCont}>
